@@ -1,0 +1,14 @@
+hello.o: hello.cpp /usr/local/include/scew/scew.h \
+ /usr/local/include/scew/export.h /usr/local/include/scew/attribute.h \
+ /usr/local/include/scew/element.h /usr/local/include/scew/list.h \
+ /usr/local/include/scew/bool.h /usr/local/include/scew/error.h \
+ /usr/local/include/scew/parser.h /usr/local/include/scew/reader.h \
+ /usr/local/include/scew/tree.h /usr/local/include/scew/printer.h \
+ /usr/local/include/scew/writer.h /usr/local/include/scew/reader_buffer.h \
+ /usr/local/include/scew/reader_file.h /usr/local/include/scew/str.h \
+ /usr/local/include/scew/writer_buffer.h \
+ /usr/local/include/scew/writer_file.h
+-Wall
+-g
+-MM
+hello.cpp
